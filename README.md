@@ -46,6 +46,8 @@ Now we can launch the game just from starting the diabotical.exe.
 
 The client handles the responses from the masterserver at offset `001429F0`. The client asks the server on game launch for auth with `!`. If the server answers with `4` and `#`, the client unlocks itself.
 
+Note: Some of the commands the client sends to the master server can be found [here](https://github.com/ScheduleTracker/DiaboticalTracker/blob/master/ui/html/javascript/ui_data.js#L11), where the number represents an ASCII code.
+
 At this point, the user is allowed to load and edit maps.
 
 ### Hosting a server
