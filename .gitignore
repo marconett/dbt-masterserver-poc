@@ -1,0 +1,35 @@
+# File system junk files
+Desktop.ini
+Thumbs.db
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.apdisk
+.fseventsd
+.Trash-*
+
+
+# Editor files
+.netrwhist
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+.c9
+.idea/
+.vscode/
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Compiled Python files
+*.pyc
+
+# Compiled C++ files
+*.out
+
+# Application specific files
+*.dbp
+*.c
+main
+certs/
