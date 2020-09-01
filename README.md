@@ -4,9 +4,14 @@ This emulates the Diabotical masterserver and allows to start the game while it'
 
 This was done on game version `0.20.297c` while official masterservers were down.
 
-## Building
+## Building and running
 
-`env GOOS=linux GOARCH=amd64 go build main.go`
+* `./certs.sh`
+* `env GOOS=linux GOARCH=amd64 go build main.go`
+* `chmod +x main`
+* `./main`
+
+The masterserver talks TLS to the client, so make sure to create one and put it inside a `certs/` folder next to the masterserver binary.
 
 ## Rerouting traffic to the custom Masterserver
 
